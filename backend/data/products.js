@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: 1,
     name: 'Radiohead - The Bends Vinyl LP',
     image: 'images/RadioheadTheBends600-2.jpg',
     description: 'Radiohead - The Bends Vinyl LP',
@@ -12,7 +11,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: 2,
     name: 'Atoms For Peace - AMOK Vinyl LP',
     image: 'images/2012atomsforPeaceamok600G041212-2.jpg',
     description: 'Atoms For Peace - AMOK Vinyl LP',
@@ -24,7 +22,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: 3,
     name: 'Radiohead - In Rainbows Vinyl LP',
     image: 'images/RadioheadInRainbows600.jpg',
     description: 'Radiohead - In Rainbows Vinyl LP',
@@ -36,7 +33,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: 4,
     name: 'Radiohead - Kid A',
     image: 'images/RadioheadKidA600-2.jpg',
     description: 'Radiohead - Kid A',

@@ -11,7 +11,7 @@ const ProductScreen = () => {
 
   useEffect(() => {
     const getProduct = async () => {
-      const response = await fetch(`/api/product/${productId}`);
+      const response = await fetch(`/api/products/${productId}`);
       const data = await response.json();
       setProduct(data);
     };
