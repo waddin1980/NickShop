@@ -21,6 +21,7 @@ import { addToCart } from '../slices/cartSlice';
 
 import Loader from '../components/Loader';
 import Message from '../components/Message';
+import Meta from '../components/Meta';
 
 const ProductScreen = () => {
   const { id: productId } = useParams();
@@ -82,9 +83,10 @@ const ProductScreen = () => {
         </Message>
       ) : (
         <>
+          <Meta title={product.name} />
           <Row>
             <Col md={5}>
-              <Image src={`../${product.image}`} alt={product.name} fluid />
+              <Image src={product.image} alt={product.name} fluid />
             </Col>
             <Col md={4}>
               <ListGroup variant="flush">
